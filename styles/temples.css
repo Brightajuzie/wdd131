@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	
+    font-family: "Story Script", sans-serif;
+    background-color: #fff;
+}
+main { 
+     
+    margin: 0 auto;
+    padding: 20px;
+    /*max-width: 800px;*/
+    
+  }
+
+/* Mobile view Added */
+header {
+	color:  #243dae;
+	display: grid;
+	grid-gap: 1rem;
+	padding: 20px;
+	/*border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 30px #333;*/
+}
+
+header
+ {
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2rem;
+}
+.center{
+    text-align: center;
+    color: tomato;
+    padding: 20px;
+}
+
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0.5rem 0.75rem;
+	background-color: #eee;
+	color: #000;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+/*Adjustments are added */
+
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover{
+	background-color: rgb(146, 27, 27);
+}
+.navigation a:active {
+    color: tomato;
+    background-color: #fff;
+}
+
+
+
+
+/*Adjustments Ends*/
+
+
+
+nav {
+	background-color: #243dae;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+nav a {
+	display: flex;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+	font-size: larger;
+}
+
+nav a:hover {
+	text-decoration: none;
+	background-color: #eee;
+	color: #f0f0f0;
+
+}
+.active{
+    
+    color: #eee;
+    background-color:tomato;
+}
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+.active {
+	color: #df6f14;
+}
+
+
+
+figure {background-color:#fff;}
+img { width: 100%; height: auto; margin: .5rem;}
+figcaption {font-size: smaller;
+color:tomato;
+text-align: center;
+text-decoration: solid;
+padding: 20px;
+
+}
+/* hover effect */
+.hover:hover {box-shadow: 0 0 50px #333;}
+
+.footer {
+    grid-area: footer;
+    background-color: #243dae;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .photo-album {
+    display: grid;
+    /* This creates a flexible, responsive grid.
+       It will automatically create columns with a minimum width of 250px. */
+    grid-template-columns: repeat(auto-fit, minmax(230px,  1fr));
+    gap: 15px; /* Spacing between grid items */
+    padding: 20px; /* Padding around the entire album */
+    background-color: #f0f0f0; /* Light gray background for the album area */
+     
+  }
+  
+  
+  .photo-container {
+    overflow: hidden; /* Ensures the image doesn't overflow its container */
+    position: relative;
+    border-radius: 8px; /* Rounded corners for each photo container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+    transition: transform 0.3s ease-in-out;
+
+    
+  }  
+  .photo-container{
+    transform: scale(1.03);
+  }
+   
+  
