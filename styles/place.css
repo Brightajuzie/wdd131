@@ -5,7 +5,10 @@
 }
 
 body {
-    font-family: "Story Script", sans-serif;
+     
+    font-family: "League Gothic", sans-serif;
+   font-optical-sizing: auto;
+     
     background-color: #fff;
 }
 
@@ -22,10 +25,11 @@ header {
     background-color: #023a20;
     text-align: center;
     font-weight: bold;
+    font-size: 30px;
 }
 
 h2 {
-    font-size: 1rem;
+     
     text-align: center;
     color: #044603;
 }
@@ -68,13 +72,14 @@ h1 {
 
 /* Individual card styles and hover effect */
 .card {
+    font-size: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     background-color: rgba(65, 174, 176, 0.267);
     backdrop-filter: blur(5px);
     opacity: 1;
-    color: #100c01;
+    color: #1d1b18;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -88,8 +93,8 @@ h1 {
     color: #080000;
     padding: 15px;
     text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
+    
+    font-size: 28px;
 }
 /* styles the card content */
 .card-content {
