@@ -114,7 +114,10 @@ h1 {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
-
+.weather-logo{
+    width: 30px; 
+    height: auto;
+}
 .footer {
     background-color: #023a20;
     color: white;
