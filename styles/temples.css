@@ -19,7 +19,7 @@ header {
     display: grid;
     grid-gap: 1rem;
     padding: 20px;
-    background-color: #243dae;
+    background-color: #023a20;
 }
 
 header {
@@ -87,7 +87,7 @@ h1 {
 }
 
 nav {
-    background-color: #243dae;
+    background-color: #023a20;
 }
 
 nav ul {
@@ -152,7 +152,7 @@ figcaption {
 
 .footer {
     grid-area: footer;
-    background-color: #243dae;
+    background-color: #023a20;
     color: white;
     padding: 20px;
     text-align: center;
