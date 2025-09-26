@@ -94,7 +94,7 @@ const getDedicationDate = (temple) => new Date(temple.dedicated);
 
  
 function createTempleCard(filteredTemples) {
-    // 1. Clear the existing content
+    
     document.querySelector(".photo-album").innerHTML = "";
 
     filteredTemples.forEach(temple => {
